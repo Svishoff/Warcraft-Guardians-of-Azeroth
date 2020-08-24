@@ -1,0 +1,64 @@
+# hair, mouth, chin, nose, eyes, cheek, ear, neck
+spriteTypes = {
+	
+	############## pandaren ##########################
+
+	spriteType = {
+		name = "PORTRAIT_pandarengfx_child_male"
+		texturefile = "gfx\\characters\\pandaren_child//pandaren_male_child.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_pandarengfx_child_female"
+		texturefile = "gfx\\characters\\pandaren_child//pandaren_female_child.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	### pandaren MALE ####
+	
+	spriteType = {
+		name = "GFX_pandaren_male_base"
+		texturefile = "gfx\\characters\\shared\\empty.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_pandaren_male_fur"
+		texturefile = "gfx\\characters\\pandaren_male\\pandaren_male_fur.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_pandaren_male_neck"
+		texturefile = "gfx\\characters\\pandaren_male\\pandaren_male_neck_1.dds"
+		noOfFrames = 21
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_pandaren_male_clothes"
+		texturefile = "gfx\\characters\\pandaren_male\\pandaren_male_clothes.dds"
+		noOfFrames = 11
+		norefcount = yes
+	}
+	
+	#### pandaren FEMALE ####
+	
+	spriteType = {
+		name = "GFX_pandaren_female_base"
+		texturefile = "gfx\\characters\\shared\\empty.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_pandaren_female_neck"
+		texturefile = "gfx\\characters\\pandaren_female\\pandaren_female_neck_1.dds"
+		noOfFrames = 20
+		norefcount = yes
+	}
+}

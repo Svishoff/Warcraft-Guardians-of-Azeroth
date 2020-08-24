@@ -1,6 +1,6 @@
 pandaren_religion_group = {
 	has_coa_on_barony_only = no
-	graphical_culture = indiangfx
+	graphical_culture = chinesegfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
 
@@ -21,20 +21,19 @@ pandaren_religion_group = {
 		icon = 62
 		heresy_icon = 63
 
-		color = { 0.12 0.60 0.20 }
+		color = { 0 0.79 0.90 }
 
 		scripture_name = THE_ANNALS
 		priest_title = MONK
-		piety_name = PIETY_CHI
 
-		high_god_name = GOD_SHAOHAO
+		high_god_name = GOD_AUGUST_CELESTIALS
 
 		god_names = {
-			GOD_SHAOHAO GOD_CHI_JI GOD_NIUZAO GOD_XUEN GOD_YULON
+			GOD_AUGUST_CELESTIALS
 		}
 
 		evil_god_names = {
-			THE_SHA THE_CHAOS
+			SHA THE_CHAOS
 		}
 
 		# Modifiers
@@ -69,9 +68,10 @@ pandaren_religion_group = {
 		matrilineal_marriages = yes
 		female_temple_holders = yes
 
+		allow_in_ruler_designer = no
 		dynamic_cult = no	# Warcraft - can't handle it yet
 	}
-	waterspeaker = {
+	jinyu_beliefs = {
 		graphical_culture = jaingfx
 
 		icon = 64
@@ -80,17 +80,16 @@ pandaren_religion_group = {
 		color = { 0.29 0.91 1 }
 
 		scripture_name = THE_STORIES
-		priest_title = PRIEST_WATERSPEAKER
-		piety_name = PIETY_CHI
+		priest_title = WATERSPEAKER
 
 		high_god_name = THE_WATER
 
 		god_names = {
-			THE_WATER THE_RIVER THE_SEA GOD_CHI_JI GOD_NIUZAO GOD_XUEN GOD_YULON
+			THE_WATER THE_RIVER THE_SEA
 		}
 
 		evil_god_names = {
-			THE_SHA THE_CHAOS THE_DROUGHT
+			THE_DROUGHT
 		}
 
 		# Modifiers
@@ -125,6 +124,7 @@ pandaren_religion_group = {
 		matrilineal_marriages = yes
 		female_temple_holders = yes
 
+		allow_in_ruler_designer = no
 		dynamic_cult = no	# Warcraft - can't handle it yet
 	}
 }

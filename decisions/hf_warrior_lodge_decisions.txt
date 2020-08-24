@@ -240,7 +240,7 @@ targeted_decisions = {
 						}
 					}
 	        	}
-	        	FROM = { is_within_prev_diplo_range_trigger = yes } # CPU HEAVY!
+	        	is_within_diplo_range = FROM # CPU HEAVY!
 	        }
 	        trigger_if = { #If you *do* have this as your mission target, it's fine regardless of range..
 	        	limit = {
@@ -253,7 +253,7 @@ targeted_decisions = {
 					}
 	        	}
 	        	OR = {
-	        		FROM = { is_within_prev_diplo_range_trigger = yes }
+	        		is_within_diplo_range = FROM
 	        		custom_tooltip = {
 						text = quest_target_tt
 						any_quester_targeting_this = { #FROM must have this as a quest target
@@ -508,7 +508,7 @@ targeted_decisions = {
 	            }
 	        }
 	        
-	        FROM = { is_within_prev_diplo_range_trigger = yes } # CPU HEAVY!
+	        is_within_diplo_range = FROM # CPU HEAVY!
 
 	        trigger_if = {
 	        	limit = {
@@ -768,8 +768,8 @@ targeted_decisions = {
 	            }
 	        }
 	        trigger_if = {
-	        	limit = { NOT = { FROM = { is_within_prev_diplo_range_trigger = yes } } }
-	        	FROM = { is_within_prev_diplo_range_trigger = yes } # CPU HEAVY!
+	        	limit = { NOT = { is_within_diplo_range = FROM } }
+	        	is_within_diplo_range = FROM # CPU HEAVY!
 	        }
 
 	        trigger_if = { #If landed, target character must be tribal or nomadic
@@ -1517,16 +1517,13 @@ society_decisions = {
 						set_character_flag = ai_flag_refuse_conversion	#In which case don't allow liege to immediately demand conversion.
 					}
 					add_warrior_lodge_leader_trait_effect = yes
-					
-					# Warcraft
-					# if = {
-						# limit = {
-							# has_dharmic_religion_trigger = yes
-						# }
-						# add_trait = kshatriya
-						# character_event = { id = RoI.30121 }
-					# }
-					
+					if = {
+						limit = {
+							has_dharmic_religion_trigger = yes
+						}
+						add_trait = kshatriya
+						character_event = { id = RoI.30121 }
+					}
 					if = {
 						limit = {
 							OR = {
@@ -2324,7 +2321,7 @@ decisions = {
 							# religion = hellenic_pagan_reformed
 							# religion = hellenic_pagan
 							# culture = roman
-							# ROOT = { is_within_prev_diplo_range_trigger = yes }
+							# is_within_diplo_range = ROOT
 						# }
 					# }
 					# narrative_event = { id = HF.25026 }

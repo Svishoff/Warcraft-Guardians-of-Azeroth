@@ -133,7 +133,7 @@ targeted_decisions = {
 			OR = {
 				AND = {
 					FROM = { ai = no }
-					FROM = { is_within_prev_diplo_range_trigger = yes }
+					is_within_diplo_range = FROM
 				}
 				AND = {
 					FROM = { ai = yes }
@@ -250,7 +250,7 @@ targeted_decisions = {
 			any_spouse = { character = FROM }
 			NOT = { has_character_flag = being_dark_divorced }
 			
-			FROM = { is_within_prev_diplo_range_trigger = yes }
+			is_within_diplo_range = FROM
 
 			#Reasons allowing dark divorce for ai
 			OR = {

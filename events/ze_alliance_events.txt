@@ -50,7 +50,7 @@ character_event = {
 			is_landed = yes
 			prisoner = no
 			is_married = yes
-			ROOT = { is_within_prev_diplo_range_trigger = yes }
+			is_within_diplo_range = ROOT
 			spouse = {
 				NOR = { 
 					is_incapable = yes
@@ -84,7 +84,7 @@ character_event = {
 				is_landed = yes
 				prisoner = no
 				is_married = yes
-				ROOT = { is_within_prev_diplo_range_trigger = yes }
+				is_within_diplo_range = ROOT
 				spouse = {
 					NOR = { 
 						is_incapable = yes
@@ -227,13 +227,13 @@ character_event = {
 				mercenary = no
 				is_tributary = no
 				independent = yes
-				ROOT = { is_within_prev_diplo_range_trigger = yes }
+				is_within_diplo_range = ROOT
 			}
 			any_allied_character = {
 				mercenary = no
 				is_tributary = no
 				independent = yes
-				ROOT = { is_within_prev_diplo_range_trigger = yes }
+				is_within_diplo_range = ROOT
 			}
 		}
 	}
@@ -245,14 +245,14 @@ character_event = {
 				any_allied_character = {
 					mercenary = no
 					is_tributary = no
-					ROOT = { is_within_prev_diplo_range_trigger = yes }
+					is_within_diplo_range = ROOT
 					independent = yes 
 				}
 			}
 			random_allied_character = {
 				limit = { 
 					mercenary = no
-					ROOT = { is_within_prev_diplo_range_trigger = yes } 
+					is_within_diplo_range = ROOT 
 					independent = yes 
 					is_tributary = no 
 				}
@@ -266,14 +266,14 @@ character_event = {
 				any_non_aggression_pact_character = {
 					mercenary = no
 					is_tributary = no
-					ROOT = { is_within_prev_diplo_range_trigger = yes }
+					is_within_diplo_range = ROOT
 					independent = yes 
 				}
 			}
 			random_non_aggression_pact_character = {
 				limit = { 
 					mercenary = no
-					ROOT = { is_within_prev_diplo_range_trigger = yes } 
+					is_within_diplo_range = ROOT 
 					independent = yes 
 					is_tributary = no 
 				}

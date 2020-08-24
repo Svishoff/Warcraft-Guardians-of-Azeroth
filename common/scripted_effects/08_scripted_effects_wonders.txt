@@ -35,7 +35,7 @@ wonder_stage_completion_sound_effect = {
 					limit = {
 						OR = { 
 							character = ROOT
-							ROOT = { is_within_prev_diplo_range_trigger = yes }
+							is_within_diplo_range = ROOT
 						}
 					}
 					if = { 

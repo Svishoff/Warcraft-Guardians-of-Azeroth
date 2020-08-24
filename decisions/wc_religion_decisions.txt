@@ -991,10 +991,7 @@ targeted_decisions = {
 			is_adult = yes
 			is_incapable = no
 			
-			OR = {
-				religion = water_deities
-				religion = waterspeaker
-			}
+			religion = water_deities
 		}
 		
 		potential = {

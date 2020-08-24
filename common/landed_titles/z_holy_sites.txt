@@ -1,10 +1,15 @@
 ### arakkoa_religion_group ###
+### pandaren_religion_group ###
 ### nerubian_religion_group ###
 c_orgrimmar = {
 	# arakkoa_religion_group
 	holy_site = rukhmar_worship
 	holy_site = sethekk_worship
 	holy_site = anzu_worship
+
+	# pandaren_religion_group
+	holy_site = august_celestials
+	holy_site = jinyu_beliefs
 	
 	# nerubian_religion_group
 	holy_site = spider_philosophy
@@ -15,6 +20,10 @@ c_stormwind = {
 	holy_site = sethekk_worship
 	holy_site = anzu_worship
 
+	# pandaren_religion_group
+	holy_site = august_celestials
+	holy_site = jinyu_beliefs
+
 	# nerubian_religion_group
 	holy_site = spider_philosophy
 }
@@ -23,6 +32,10 @@ c_zulfarrak = {
 	holy_site = rukhmar_worship
 	holy_site = sethekk_worship
 	holy_site = anzu_worship
+
+	# pandaren_religion_group
+	holy_site = august_celestials
+	holy_site = jinyu_beliefs
 
 	# nerubian_religion_group
 	holy_site = spider_philosophy
@@ -33,6 +46,10 @@ c_dazaralor = {
 	holy_site = sethekk_worship
 	holy_site = anzu_worship
 
+	# pandaren_religion_group
+	holy_site = august_celestials
+	holy_site = jinyu_beliefs
+
 	# nerubian_religion_group
 	holy_site = spider_philosophy
 }
@@ -41,6 +58,10 @@ c_ironforge = {
 	holy_site = rukhmar_worship
 	holy_site = sethekk_worship
 	holy_site = anzu_worship
+
+	# pandaren_religion_group
+	holy_site = august_celestials
+	holy_site = jinyu_beliefs
 
 	# nerubian_religion_group
 	holy_site = spider_philosophy
@@ -450,7 +471,7 @@ c_red_desert = {
 c_ulduar = {
 	holy_site = mystery_of_the_makers
 }
-c_nalaksha = {
+c_bonefields = {
 	holy_site = mystery_of_the_makers
 }
 c_dun_niffelem = {
@@ -555,7 +576,7 @@ c_crestfall = {
 c_sagehold = {
 	holy_site = old_gods_worship
 }
-c_zulnazman = {
+c_dazaralor = {
 	holy_site = old_gods_worship
 }
 c_ahnqiraj = {
@@ -564,7 +585,7 @@ c_ahnqiraj = {
 c_ulduar = {
 	holy_site = old_gods_worship
 }
-c_lulkail = {
+c_obsidian_hills = {
 	holy_site = old_gods_worship
 }
 
@@ -588,38 +609,4 @@ c_gjalerbron = {
 c_ymirheim = {
 	holy_site = odyn
 	holy_site = helya
-}
-
-### pandaren_religion_group ###
-# august_celestials
-c_dawnblossom = {
-	holy_site = august_celestials
-}
-c_niuzao = {
-	holy_site = august_celestials
-}
-c_chi_ji = {
-	holy_site = august_celestials
-}
-c_yulon = {
-	holy_site = august_celestials
-}
-c_xuen = {
-	holy_site = august_celestials
-}
-# waterspeaker
-c_pearlfin = {
-	holy_site = waterspeaker
-}
-c_niuzao = {
-	holy_site = waterspeaker
-}
-c_chi_ji = {
-	holy_site = waterspeaker
-}
-c_yulon = {
-	holy_site = waterspeaker
-}
-c_xuen = {
-	holy_site = waterspeaker
 }

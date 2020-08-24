@@ -524,7 +524,7 @@ character_event = {
                     }
                 }
     			mercenary = no
-    			ROOT = { is_within_prev_diplo_range_trigger = yes }
+    			is_within_diplo_range = ROOT
     		}
     		random = {
     			chance = 20
@@ -624,7 +624,7 @@ character_event = {
     					holy_order = yes
     				}
 					is_landed = yes
-    				ROOT = { is_within_prev_diplo_range_trigger = yes }
+    				is_within_diplo_range = ROOT
 					NOT = {
 						has_pledged_crusade_participation = yes
 					}
@@ -760,7 +760,7 @@ character_event = {
     					holy_order = yes
     				}
 					is_landed = yes
-    				ROOT = { is_within_prev_diplo_range_trigger = yes }
+    				is_within_diplo_range = ROOT
 					NOT = {
 						has_pledged_crusade_participation = yes
 					}
@@ -896,7 +896,7 @@ character_event = {
     					holy_order = yes
     				}
 					is_landed = yes
-    				ROOT = { is_within_prev_diplo_range_trigger = yes }
+    				is_within_diplo_range = ROOT
 					NOT = {
 						has_pledged_crusade_participation = yes
 					}
@@ -1030,7 +1030,7 @@ character_event = {
     					holy_order = yes
     				}
 					is_landed = yes
-    				ROOT = { is_within_prev_diplo_range_trigger = yes }
+    				is_within_diplo_range = ROOT
 					NOT = {
 						has_pledged_crusade_participation = yes
 					}
@@ -2994,7 +2994,7 @@ character_event = {
     		mercenary = no	
     		age = 16
     		higher_tier_than = BARON
-    		ROOT = { is_within_prev_diplo_range_trigger = yes }
+    		is_within_diplo_range = ROOT
             rightful_religious_head_scope = {
                 character = ROOT
                 NOT = {
@@ -3015,7 +3015,7 @@ character_event = {
     			mercenary = no
     			age = 16
     			higher_tier_than = BARON
-    			ROOT = { is_within_prev_diplo_range_trigger = yes }
+    			is_within_diplo_range = ROOT
                 rightful_religious_head_scope = {
                     character = ROOT
                 }
@@ -3054,7 +3054,7 @@ character_event = {
     		higher_tier_than = BARON
     		NOT = { has_character_flag = asked_to_pledge }
             NOT = { any_war = { using_cb = crusade } }
-    		ROOT = { is_within_prev_diplo_range_trigger = yes }
+    		is_within_diplo_range = ROOT
             rightful_religious_head_scope = {
                 character = ROOT
                 NOT = {
@@ -3076,7 +3076,7 @@ character_event = {
     			higher_tier_than = BARON
     			NOT = { has_character_flag = asked_to_pledge }
                 NOT = { any_war = { using_cb = crusade } }
-    			ROOT = { is_within_prev_diplo_range_trigger = yes }
+    			is_within_diplo_range = ROOT
                 rightful_religious_head_scope = {
                     character = ROOT
                 }
@@ -4614,7 +4614,7 @@ character_event = {
     				holy_order = yes
     			}
     			mercenary = no
-    			event_target:crusade_defender = { is_within_prev_diplo_range_trigger = yes }
+    			is_within_diplo_range = event_target:crusade_defender
     		}
     		random = {
     			chance = 25
@@ -4764,7 +4764,7 @@ character_event = {
 				NOT = {
 					holy_order = yes
 				}
-				event_target:crusade_defender = { is_within_prev_diplo_range_trigger = yes }
+				is_within_diplo_range = event_target:crusade_defender
                 has_pledged_crusade_defense = no
 			}
 			preferred_limit = {
@@ -4893,7 +4893,7 @@ character_event = {
                     NOT = {
                         holy_order = yes
                     }
-                    event_target:crusade_defender = { is_within_prev_diplo_range_trigger = yes }
+                    is_within_diplo_range = event_target:crusade_defender
                     has_pledged_crusade_defense = no
                 }
                 preferred_limit = {
@@ -5033,7 +5033,7 @@ character_event = {
     				age = 16
     				mercenary = no
     				higher_tier_than = BARON
-    				event_target:crusade_defender = { is_within_prev_diplo_range_trigger = yes }
+    				is_within_diplo_range = event_target:crusade_defender
     			}
     		}
 	    	random_playable_ruler = {
@@ -5044,7 +5044,7 @@ character_event = {
 	    			mercenary = no
 	    			age = 16
 	    			higher_tier_than = BARON
-	    			event_target:crusade_defender = { is_within_prev_diplo_range_trigger = yes }
+	    			is_within_diplo_range = event_target:crusade_defender
 	    		}
 	    		preferred_limit = {
 	    			tier = EMPEROR
@@ -5151,7 +5151,7 @@ character_event = {
 					}
 					mercenary = no
 					holy_order = no
-					ROOT = { is_within_prev_diplo_range_trigger = yes }
+					is_within_diplo_range = ROOT
 				}
 				character_event = { id = HFP.41082 days = 1 random = 350 }
 			}
@@ -5184,7 +5184,7 @@ character_event = {
 						}
 						mercenary = no
 						holy_order = no
-						ROOT = { is_within_prev_diplo_range_trigger = yes }
+						is_within_diplo_range = ROOT
 					}
 					character_event = { id = HFP.41082 days = 3 random = 350 }
 				}
